@@ -12,6 +12,10 @@ header {
     
 }
 
+header h1 {
+    margin-left: 12px;
+}
+
 header,
 header h2,
 section h3,
@@ -21,13 +25,16 @@ form button {
         font-style: normal;    
 }
 
+.container a {
+    margin-right: 8px;
+}
+.container .contact-methods h3{
+    margin-left: 24px;
+}
+
 body, input, textarea {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings;
-        "width" 100;
 }
 
 header nav li {
@@ -64,7 +71,7 @@ section .container {
 }
 
 section {
-    padding: 24px 0;
+    padding: 24px, 0px;
 }
 
 section h2,
@@ -106,6 +113,7 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    margin-left: 24px;
 }
 
 form textarea {
@@ -113,6 +121,10 @@ form textarea {
     height: 180px;
 }
 
+#about img {
+    margin: 24px;
+    max-width: 580px;
+}
 section h3{
     margin-bottom: 16px;
     font: sy;
